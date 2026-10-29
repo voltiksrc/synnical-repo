@@ -2,7 +2,7 @@
 # and the index url for omi to download.
 
 [repository]
-indexurl = "https://raw.githubusercontent.com/voltiksrc/omi-inventory/main/index.toml"
+indexurl = "https://raw.githubusercontent.com/voltiksrc/synnical-repo/main/index.toml"
 
 [packages]
 zlib = "packages/zlib/package.toml"
