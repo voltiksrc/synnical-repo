@@ -1,0 +1,10 @@
+[package]
+name = "rust-toolchain"
+version = "1.99.1"
+
+[build]
+system = "rust-bootstrap"
+
+[deps]
+requires = []
+build_requires = ["cmake", "python", "ninja"]
