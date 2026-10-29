@@ -1,10 +1,15 @@
 [package]
 name = "rust-toolchain"
 version = "1.99.1"
+provides = ["rustc", "cargo"]
+
+[source]
+url = "https://static.rust-lang.org/dist/rustc-1.99.1-src.tar.xz"
+sha256 = "6451598a99e77f07571960f6b21d577399d3a30f33e80cbd2e3a4aae6535d265"
 
 [build]
 system = "rust-bootstrap"
 
 [deps]
 requires = []
-build_requires = ["cmake", "python", "ninja"]
+build_requires = ["cmake", "python", "ninja", "pkgconf"]
