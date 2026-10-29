@@ -1,6 +1,4 @@
-# This is the index file which will temporarily hold the location of packages
-# and the index url for omi to download.
-
+# This is the index file which will temporarily hold the location of packages.
 [repository]
 indexurl = "https://raw.githubusercontent.com/voltiksrc/synnical-repo/main/index.toml"
 
